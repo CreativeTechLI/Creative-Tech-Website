@@ -1,0 +1,137 @@
+        * {
+	   margin: 0;
+	   padding: 0;
+        }
+        
+        html {
+            background-image: url(../images/blue-water.png);
+        }
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 100%;
+            width: 80%;
+            margin: 0 auto;
+            border: 3px solid black;
+            background-color: gainsboro;
+            min-width: 500px;
+        }
+        
+        
+        /* Styles for header */
+        
+        header {
+            padding: 2%;
+            border-bottom: 2px solid black;
+            background-image: linear-gradient(35deg, gainsboro, blue, gainsboro, blue, gainsboro);
+        }
+        
+       header img {
+	       float: left;
+           padding: 0 .1% .1% .1%;
+           margin: 0% 2% 0% 0%;
+           width: 80px;
+           height: 80px;
+        }
+        
+        header h1 {
+            text-shadow: 2px 2px red;
+            font-size: 200%;
+            padding: 1% 2% 1% 1%;
+        }
+        
+        header h2 {
+            font-style: italic;
+            font-size: 150%;
+        }
+        
+        /* Styles for the main */
+        main {
+         
+        }
+        /* Styles for the section */
+        section {
+            float: right;
+            width: 65%;
+            padding: 0 1%;
+        }
+
+        section img {
+            width: 20%
+        }
+         
+        section p {
+            margin: 2% 0;
+            max-width: 95%;
+        }
+        
+        section p.border_under {
+            border-bottom: solid 2px black;
+            
+        }
+        
+        section p.border_upper {
+            border-top: solid 2px black;
+            
+        }
+        
+        section figure {
+            margin: 0 0 0 10%; 
+        }
+        
+        section h2 {
+            text-decoration: underline;
+        }
+        
+        
+        /* Styles for the aside */
+        
+       aside {
+            float: left;
+            background-color: darkgray;
+            border: 2px solid black;
+            padding: 1%;
+            margin: 1% 1% 1% 3%;
+            width: 25%;
+        }
+         
+        aside nav ul {
+            list-style-type: none;
+        }
+        
+        a {
+            color: blue;
+        }
+        
+        a:hover { 
+            color: darkorange;
+        }
+        
+        a:visited {
+            color: red;
+        }
+
+        a:visited:hover {
+            color: darkorange;
+        }
+        
+        
+        
+        a.inactive {
+            color:lightgray;
+            pointer-events: none;
+            cursor: default;
+        }
+        
+        
+        /* the styles for the footer */
+footer {
+	background-color: blue;
+	clear: both;
+
+}
+footer p {
+	text-align: center;
+	color: white;
+	padding: 1em 0;
+}
